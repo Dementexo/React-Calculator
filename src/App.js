@@ -3,7 +3,12 @@ function App() {
     <div className="App">
       <div className="siteContainer">
         <div className="headerContainer">
-          reactHeaderContainer
+          <div className="reactLogo">
+            <img src= {require("./logo192.png")} className="reactIMG"></img>
+          </div>
+          <div className="headerText">
+            Powered by REACT
+          </div>
         </div>
         <div className="calculatorContainer">
             <div className="calculatorOutput">
@@ -13,28 +18,28 @@ function App() {
             </div>
             <div className="calculatorKeypad">
               <div className="topOperators">
-                <button>+</button>
-                <button>-</button>
-                <button>÷</button>
-                <button>AC</button>
+                <button className="tOpButton">+</button>
+                <button className="tOpButton">-</button>
+                <button className="tOpButton">÷</button>
+                <button className="clearButton">AC</button>
               </div>
               <div className="digitsAndOps">
                 <div className="digits">
-                  <button>1</button>
-                  <button>2</button>
-                  <button>3</button>
-                  <button>4</button>
-                  <button>5</button>
-                  <button>6</button>
-                  <button>7</button>
-                  <button>8</button>
-                  <button>9</button>
-                  <button>0</button>
+                  <button className="numberButton">1</button>
+                  <button className="numberButton">2</button>
+                  <button className="numberButton">3</button>
+                  <button className="numberButton">4</button>
+                  <button className="numberButton">5</button>
+                  <button className="numberButton">6</button>
+                  <button className="numberButton">7</button>
+                  <button className="numberButton">8</button>
+                  <button className="numberButton">9</button>
+                  <button className="numberButtonSpecial">0</button>
                 </div>
                 <div className="sideOperators">
-                  <button>*</button>
-                  <button>exp</button>
-                  <button>=</button>
+                  <button className="sOpButton">x</button>
+                  <button className="expButton">exp</button>
+                  <button className="sOpButtonBig">=</button>
                 </div>
               </div>
             </div>
