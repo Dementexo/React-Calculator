@@ -38,7 +38,7 @@ function App() {
                 </div>
                 <div className="sideOperators">
                   <button className="sOpButton">x</button>
-                  <button className="expButton">exp</button>
+                  <button className="expButton">n<sup>x</sup></button>
                   <button className="sOpButtonBig">=</button>
                 </div>
               </div>
