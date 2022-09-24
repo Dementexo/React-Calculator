@@ -38,7 +38,6 @@
   display:flex;
   flex-direction:column;
   margin-top:25vh;
-  margin-bottom:1%;
   width:50%;
   max-width:260px;
   height:36%;
@@ -58,12 +57,11 @@
   display:flex;
   flex-direction: row-reverse;
   align-items:center;
-  color:white;
   background-color:rgb(217,217,217);
   width: 85%;
   height:45%;
-  padding-left:2%;
-  padding-right:2%;
+  padding-left:3%;
+  padding-right:3%;
   border-radius:1vh;
 }
 .calculatorKeypad{
@@ -100,8 +98,8 @@
   width:15%;
 }
 .tOpButton{
-  width:15%;
-  height:4.5vh;
+  width:4vh;
+  height:4vh;
   background-color: rgb(227,136,0);
   border:none;
   color:white;
@@ -114,8 +112,8 @@
   background-color: rgb(174, 104, 0);
 }
 .clearButton{
-  width:15%;
-  height:4.5vh;
+  width:4vh;
+  height:4vh;
   background-color: rgb(227,136,0);
   border:none;
   color:white;
@@ -128,8 +126,8 @@
   background-color: rgb(174, 104, 0);
 }
 .expButton{
-  width:100%;
-  height:4.5vh;
+  width:4vh;
+  height:4vh;
   background-color: rgb(227,136,0);
   border:none;
   color:white;
@@ -142,8 +140,8 @@
   background-color: rgb(174, 104, 0);
 }
 .sOpButton{
-  width:100%;
-  height:4.5vh;
+  width:4vh;
+  height:4vh;
   background-color: rgb(227,136,0);
   border:none;
   color:white;
@@ -156,7 +154,7 @@
   background-color: rgb(174, 104, 0);
 }
 .sOpButtonBig{
-  width:100%;
+  width:4vh;
   height:10vh;
   background-color: rgb(227,136,0);
   border:none;
@@ -201,6 +199,8 @@
 }
 .footerContainer{
   color:rgb(69,69,69);
+  margin-top:1vh;
+  font-size:0.8rem;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight:100;
+  font-weight:400;
 }
