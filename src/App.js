@@ -15,7 +15,7 @@ function App() {
     try {
       updateValue(calcValue.slice(0, -1));
     } catch (error) {
-      updateValue(0);
+      updateValue("");
     }
   }
   return (
