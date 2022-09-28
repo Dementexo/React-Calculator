@@ -13,7 +13,7 @@ function App() {
 
   const backspace = () => {
     try {
-      updateValue(calcValue.slice(0, -1));
+      updateValue(calcValue.slice("", -1));
     } catch (error) {
       updateValue("");
     }
